@@ -1,0 +1,9 @@
+<%- include ('partials/header.ejs')%>
+<body>
+	<form method="POST" action="/ranking/save">
+		<input type="text" name="name" placeholder="Insira seu nome" required>
+		<input type="email" name="email" placeholder="Insira seu email" required>
+		<button>Enviar</button>
+	</form>
+</body>
+<%- include ('partials/footer.ejs')%>
