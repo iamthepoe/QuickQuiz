@@ -16,5 +16,5 @@ const Ranking = connection.define('ranking', {
 	}
 });
 
-//Category.sync({ force: true });
+//Ranking.sync({ force: true });
 module.exports = Ranking;
